@@ -1,0 +1,121 @@
+@font-face {
+font-family: "Andro Futuristic";
+src: url("Andro Futuristic.otf") format("opentype");
+}
+
+@font-face {
+font-family: "cygun-regular";
+src: url("cygun-regular.eot");
+src: url("cygun-regular.woff") format("woff"),
+url("CYGUN-Regular.otf") format("opentype"),
+url("cygun-regular.svg#filename") format("svg");
+}
+
+
+body{
+  margin: 0px;
+  background: url(bg8.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home2{
+  font-family: 'cygun-regular', sans-serif;
+  font-weight:normal;
+  font-style:normal;
+  margin: 0;
+  color: white;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+ align-content: center;
+ animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+.text{
+	font-family: 'Andro Futuristic', sans-serif;
+  font-weight:normal;
+  font-style:normal;
+  margin: 50px 50px;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+ align-content: center;
+}
+
+.box1{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 10px;
+ }
+
+ .img1, .img2, .img3, .img4, .img5, .img6 {
+ width: 50%; 
+ height: auto;
+}
+
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .box1 {
+    flex-direction: column;
+  }
+
+  .img1, .img2, .img3, .img4, .img5, .img6 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+
+
