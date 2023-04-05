@@ -232,31 +232,6 @@ a:active {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 730px) {
-
- body {
-    background-color: black;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    margin: 0;
-}
-
- .music-container {
-    top: -50%;
-    margin: 20px 0;
-
-  }
-
-
-  .bg-container {
-    height: 100vh;
-    background-size: cover;
-  }
-
-}
 
 @media screen and (max-width: 480px) {
   
